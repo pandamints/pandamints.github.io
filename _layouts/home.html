@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+    {% include head.html %}
+
+    <body id="pm-ui">
+
+        {% include header.html %}
+
+        <main id="pmui-main" role="main">
+
+            <section class="pmui-banner">
+
+                <div class="pmui-container">
+
+                    <p>{{ site.intro-line-1 }}<br>{{ site.intro-line-2 }}</p>
+
+                    {% if site.button-label and site.button-link %}
+                        
+                        <p><a href="mailto:{{ site.button-link }}">{{ site.button-label }}</a></p>
+
+                    {% endif %}
+
+                </div>
+
+            </section>
+
+            <section class="pmui-projects">
+
+                <div class="container">
+
+                    {% for project in site.projects %}
+
+                        <div class="pmui-project">
+
+                            <div class="pmui-project--image"></div>
+
+                            <div class="pmui-project--content">
+
+                                <h3>{{ project.name }}</h3>
+
+                                <p>{{ project.description }}</p>
+
+                                <p><a href="{{ project.link }}" target="_blank">Visit Website</a></p>
+
+                            </div>
+
+                        </div>
+                        
+                    {% endfor %}
+
+                </div>
+
+            </section>
+
+            <section class="pmui-cta">
+
+                <h2>Get in touch</h2>
+
+                <p>Let's chat about your next project</p>
+
+                {% if site.button-label and site.button-link %}
+                        
+                    <p><a href="mailto:{{ site.button-link }}">{{ site.button-label }}</a></p>
+
+                {% endif %}
+
+            </section>
+
+        </main>
+
+        {% include footer.html %}
+
+    </body>
+
+</html>
