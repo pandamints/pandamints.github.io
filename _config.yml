@@ -19,12 +19,12 @@ button-link: hello@pandamints.com
 projects:
   
   - name: Ximena Calle
-    description: Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.
+    description: Web design and development for a virtual classroom making possible for teacher to interact with students.
     image: ximenacalle.png
     link: http://ximenacalle.com
 
   - name: Jessica Iskander
-    description: Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.
+    description: Web design and development for book author Jessica Iskander to showcase her work.
     image: jessica.png
     link: http://jessicaiskander.com
 
