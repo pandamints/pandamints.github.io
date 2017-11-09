@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+    {% include head.html %}
+
+    <body id="pandamints" class="pm-theme--light pm-ui">
+
+        <div class="pmui-wrapper">
+
+            {% include header-simple.html %}
+
+            <main id="pmui-main" class="pmui-fof" role="main">
+
+                <div class="pmui-fof--message">
+
+                    <h2>Woops! I think you got lost.</h2>
+
+                    <p><a class="pmui-button pmui-button--red" href="{{ site.url }}">Go back</a></p>
+
+                </div>
+
+            </main>
+
+            {% include footer.html %}
+
+        </div>
+
+    </body>
+
+</html>
