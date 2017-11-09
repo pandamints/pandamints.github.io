@@ -43,3 +43,8 @@ socialmedia:
 # Google Analytics
 gaid:
 gasite:
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
