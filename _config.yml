@@ -40,8 +40,10 @@ socialmedia:
   - name: Github
     link: https://github.com/pandamints
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# Hotjar
+hjid: 685213
+hjsite: http://pandamints.com
+
+# Google Analytics
+gaid:
+gasite:
