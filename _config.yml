@@ -40,10 +40,6 @@ socialmedia:
   - name: Github
     link: https://github.com/pandamints
 
-# Hotjar
-hjid: 685213
-hjsite: http://pandamints.com
-
 # Google Analytics
 gaid:
 gasite:
