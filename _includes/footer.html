@@ -12,9 +12,11 @@
 
             <ul>
 
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Github</li>
+                {% for social in site.socialmedia %}
+                    
+                    {% if social.name %}<li><a href="{{ social.link }}" target="_blank">{{ social.name }}</a></li>{% endif %}
+                    
+                {% endfor %}
 
             </ul>
 
