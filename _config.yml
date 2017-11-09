@@ -19,14 +19,26 @@ button-link: hello@pandamints.com
 projects:
   
   - name: Ximena Calle
-    description: Lorem ipsum dolor sit amet...
-    image: ximenacalle
+    description: Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.
+    image: ximenacalle.png
     link: http://ximenacalle.com
 
   - name: Jessica Iskander
-    description: Lorem ipsum dolor sit amet...
-    image: jessica
+    description: Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.
+    image: jessica.png
     link: http://jessicaiskander.com
+
+# Social
+socialmedia:
+
+  - name: Facebook
+    link: https://www.facebook.com/pandamints
+
+  - name: Twitter
+    link: https://twitter.com/wearepandamints
+
+  - name: Github
+    link: https://github.com/pandamint
 
 # Build settings
 markdown: kramdown
