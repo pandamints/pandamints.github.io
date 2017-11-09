@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+    {% include head.html %}
+
+    <body id="pandamints" class="pm-theme--light pm-ui">
+
+        <div class="pmui-wrapper">
+
+            {% include header.html %}
+
+            <main id="pmui-main" role="main">
+
+                <section class="pmui-cta">
+
+                    <div class="pmui-container">
+
+                        {% if site.button-label and site.button-link %}<p><a href="mailto:{{ site.button-link }}" class="pmui-button pmui-button--cyan">{{ site.button-label }}</a></p>{% endif %}
+
+                    </div>
+
+                </section>
+
+                <section class="pmui-projects">
+
+                    <div class="pmui-container">
+
+                        {% for project in site.projects %}
+
+                            <div class="pmui-project">
+
+                                <div class="pmui-project--image" style="background-image: url('{{site.url}}/assets/images/{{ project.image }}');"></div>
+
+                                <div class="pmui-project--content">
+
+                                    {% if project.name %}<h3>{{ project.name }}</h3>{% endif %}
+
+                                    {% if project.description %}<p>{{ project.description }}</p>{% endif %}
+
+                                    {% if project.link %}<p><a href="{{ site.link }}" target="_blank" class="pmui-button pmui-button--ghost">Visit Website</a></p>{% endif %}
+
+                                </div>
+
+                            </div>
+                            
+                        {% endfor %}
+
+                    </div>
+
+                </section>
+
+                <section class="pmui-cta">
+
+                    <div class="pmui-container">
+
+                        <h2>Get in touch</h2>
+
+                        <p>Let's chat about your next project</p>
+
+                        {% if site.button-label and site.button-link %}<p><a href="mailto:{{ site.button-link }}" class="pmui-button pmui-button--cyan">{{ site.button-label }}</a></p>{% endif %}
+
+                    </div>
+
+                </section>
+
+            </main>
+
+            {% include footer.html %}
+
+        </div>
+
+    </body>
+
+</html>

@@ -11,3 +11,5 @@ vendor/cache/
 vendor/gems/
 vendor/ruby/
 npm-debug.log
+package.json
+Gulpfile.js
