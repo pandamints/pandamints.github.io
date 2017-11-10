@@ -1,15 +1,25 @@
 # Site settings
 title: Panda Mints
+author: Panda Mints Team
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We are Panda Mints. We build tools that drive results like websites
+  and mobile applications focusing on the critical touch point between
+  you and your customers.
+keywords:
+  pandamints, wearepandamints, creative, agency, wordpress, websites,
+  apps, mobiles, tools, web, website, mobile, tool, app, application,
+  applications, creatives, thinkers, partners, paginas, páginas, cuenca,
+  ecuador, quito, guayaquil, clientes, portfolio, portafolio, php, html,
+  html5, jekyll, github, twitter, facebook, redes sociales, redes, sociales,
+  social media, social, media, network, social network, behance, help,
+  ayuda, creativos, experiencia, usuario, ui, ux, user, experience, interface,
+  user experience, user interface, connection, touch point, aplicaciones
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pandamints.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Home intro
 intro-line-1: We are Panda Mints.
-intro-line-2: We have passion for what we do and that passion leads us to create upscale fresh ideas for our clients.
+intro-line-2: We have passion for what we do and that passion leads us to create upscale tools for our clients.
 
 # Contact button
 button-label: Contact Us
@@ -19,7 +29,7 @@ button-link: hello@pandamints.com
 projects:
   
   - name: Ximena Calle
-    description: Web design and development for a virtual classroom making possible for teacher to interact with students.
+    description: Web design and development for virtual classroom making possible for teacher to interact with students.
     image: ximenacalle.png
     link: http://ximenacalle.com
 
@@ -41,8 +51,7 @@ socialmedia:
     link: https://github.com/pandamints
 
 # Google Analytics
-gaid:
-gasite:
+gaid: UA-109520023-1
 
 # Build settings
 theme: minima
