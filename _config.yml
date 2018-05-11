@@ -15,7 +15,7 @@ keywords:
   ayuda, creativos, experiencia, usuario, ui, ux, user, experience, interface,
   user experience, user interface, connection, touch point, aplicaciones
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pandamints.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pandamints.com"
 
 # Home intro
 intro-line-1: We are Panda Mints.
@@ -30,12 +30,12 @@ projects:
   
   - name: Ximena Calle
     description: Web design and development for virtual classroom making possible for teacher to interact with students.
-    image: ximenacalle.png
+    image: https://pandamints.com/assets/images/ximenacalle.png
     link: http://ximenacalle.com
 
   - name: Jessica Iskander
     description: Web design and development for book author Jessica Iskander to showcase her work.
-    image: jessica.png
+    image: https://pandamints.com/assets/images/jessica.png
     link: https://jessicaiskander.com
 
 # Social
