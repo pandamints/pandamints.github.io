@@ -30,12 +30,12 @@ projects:
   
   - name: Ximena Calle
     description: Web design and development for virtual classroom making possible for teacher to interact with students.
-    image: https://pandamints.com/assets/images/ximenacalle.png
+    image: ximenacalle.png
     link: http://ximenacalle.com
 
   - name: Jessica Iskander
     description: Web design and development for book author Jessica Iskander to showcase her work.
-    image: https://pandamints.com/assets/images/jessica.png
+    image: jessica.png
     link: https://jessicaiskander.com
 
 # Social
