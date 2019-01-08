@@ -54,6 +54,5 @@ socialmedia:
 gaid: UA-109520023-1
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
